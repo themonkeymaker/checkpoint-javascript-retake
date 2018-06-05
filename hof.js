@@ -2,15 +2,15 @@
 
 var people = [
   {
-    name: "Layla",
+    name: 'Layla',
     age: 27,
     course: 'WDI'
   }, {
-    name: "Keanu",
+    name: 'Keanu',
     age: 54,
     course: 'WDI'
   }, {
-    name: "Jasmine",
+    name: 'Jasmine',
     age: 35,
     course: 'DSI'
   }
@@ -20,10 +20,15 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleAges`.
 // Type your solution immediately below this line:
-
-
+var peopleAges = []
+people.map(function (people) {
+peopleAges.push(people.age)})
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+var wdiStudents = people.filter(function (person) {
+ if
+  (person.wdiStudents > 1) { return person.name } 
+})
